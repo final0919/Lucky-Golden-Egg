@@ -1,0 +1,6 @@
+{
+  "name": "超级盲盒砸金蛋",
+  "description": "一个适配手机、平板、电脑的年轻化淡金色调砸金蛋抽奖系统，支持点击金蛋触发粉碎碎片特效与音效。支持管理员后台配置一等奖、二等奖、三等奖与鼓励奖的内容、数量比例、概率权重，以及一键恢复金蛋与奖池库存。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
