@@ -15,7 +15,7 @@ const DEFAULT_PRIZES: Prize[] = [
   {
     id: 'grand',
     name: '一等奖 (超级大奖)',
-    itemName: 'Switch游戏主机 🎮',
+    itemName: '100元 海底捞',
     color: '#fbbf24',
     gradient: 'from-amber-400 to-yellow-500',
     total: 1,
@@ -26,7 +26,7 @@ const DEFAULT_PRIZES: Prize[] = [
   {
     id: 'second',
     name: '二等奖 (豪华好礼)',
-    itemName: '无线蓝牙智能耳机 🎧',
+    itemName: '玩偶任选 🎧',
     color: '#d946ef',
     gradient: 'from-fuchsia-400 to-purple-600',
     total: 2,
@@ -36,8 +36,8 @@ const DEFAULT_PRIZES: Prize[] = [
   },
   {
     id: 'third',
-    name: '三等奖 (精美周边)',
-    itemName: '高颜值手写日记本 📓',
+    name: '三等奖 (精美好礼)',
+    itemName: '奶茶',
     color: '#38bdf8',
     gradient: 'from-sky-400 to-blue-600',
     total: 4,
@@ -48,7 +48,7 @@ const DEFAULT_PRIZES: Prize[] = [
   {
     id: 'encouragement',
     name: '鼓励奖 (快乐回馈)',
-    itemName: '甜甜大白兔奶糖 🍬',
+    itemName: '玩偶挂件',
     color: '#fb7185',
     gradient: 'from-pink-400 to-rose-600',
     total: 9,
@@ -237,10 +237,10 @@ export default function App() {
             </div>
             <div>
               <div className="font-display font-black text-slate-900 tracking-tight flex items-center gap-1.5 text-base md:text-lg">
-                <span>超级盲盒砸金蛋</span>
+                <span>幸运金蛋</span>
                 <span className="text-[10px] bg-amber-500/15 text-amber-700 px-1.5 py-0.5 rounded-full font-bold uppercase tracking-wider">v3.0</span>
               </div>
-              <p className="text-[10px] text-amber-800/70 font-semibold font-sans">年轻态潮玩自助式砸蛋抽奖</p>
+              <p className="text-[10px] text-amber-800/70 font-semibold font-sans">自助式砸蛋抽奖</p>
             </div>
           </div>
 
@@ -286,11 +286,11 @@ export default function App() {
             </div>
             <div>
               <h3 className="font-bold text-sm md:text-base flex items-center gap-1.5">
-                <span>玩法大揭秘！如何玩转砸金蛋</span>
+                <span>如何玩转砸金蛋</span>
                 <Sparkles className="w-4 h-4 text-amber-200 animate-pulse" />
               </h3>
               <p className="text-xs text-amber-50/90 mt-0.5 leading-relaxed font-medium">
-                桌面摆放的金蛋分别绑定了专属的神秘好礼！奖品位置完全被打乱。移动鼠标到金蛋上，金锤挥起，点击即可大力砸碎金蛋！砸开后蛋壳破裂，当场爆出大奖！
+                桌面摆放的金蛋分别绑定了专属的神秘好礼！奖品位置完全被打乱。金锤挥起，点击即可大力砸碎金蛋！砸开后蛋壳破裂，当场爆出大奖！
               </p>
             </div>
           </div>
@@ -369,7 +369,7 @@ export default function App() {
       {/* Footer credits */}
       <footer className="py-6 text-center text-xs text-amber-900/40 border-t border-amber-100/50 mt-auto bg-white/30">
         <div className="max-w-7xl mx-auto px-4">
-          <p>© 2026 超级盲盒砸金蛋. Crafted for joyful student rewards and party surprises.</p>
+          <p>© 2026 幸运金蛋. Crafted for joyful student rewards and party surprises.</p>
         </div>
       </footer>
 
