@@ -26,7 +26,7 @@ const DEFAULT_PRIZES: Prize[] = [
   {
     id: 'second',
     name: '二等奖 (豪华好礼)',
-    itemName: '玩偶任选 🎧',
+    itemName: '玩偶任选',
     color: '#d946ef',
     gradient: 'from-fuchsia-400 to-purple-600',
     total: 2,
